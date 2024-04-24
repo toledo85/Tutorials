@@ -1,0 +1,35 @@
+@page "/"
+@inject WebApp.Services.IHttpService HttpService
+
+<h1>Hello, world!</h1>
+
+<h1>Todos</h1>
+
+<ul>
+    @foreach (var todo in _todos) {
+        @* if(todo.Completed) {
+            <li style="color: green;">@todo.Title</li>
+        } else {
+            <li style="color: red;">@todo.Title</li>
+        } *@
+        <li style="color: @(todo.Completed ? "green" : "red");">
+            @todo.Title
+        </li>
+    }
+</ul>
+
+ @code {
+    private List<Todo> _todos = new();
+
+    protected override async Task OnInitializedAsync() {    
+        var stringUrl = "https://jsonplaceholder.typicode.com/todos/";
+        _todos = await HttpService.GetData<List<Todo>>(stringUrl);
+    }
+
+    class Todo {
+        public int UserId { get; set; }
+        public int Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public bool Completed { get; set; }
+    }
+ }

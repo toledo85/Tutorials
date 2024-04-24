@@ -1,0 +1,39 @@
+@page "/"
+
+@inject HttpClient Http
+
+<h1>Todos</h1>
+
+<ul>
+    @foreach (var todo in _todos) {
+        @* if(todo.Completed) {
+            <li style="color: green;">@todo.Title</li>
+        } else {
+            <li style="color: red;">@todo.Title</li>
+        } *@
+        <li style="color: @(todo.Completed ? "green" : "red");">
+            @todo.Title
+        </li>
+    }
+</ul>
+
+@code {
+    private List<Todo> _todos = new();
+
+    protected override async Task OnInitializedAsync() {
+        try {
+            var stringUrl = "https://jsonplaceholder.typicode.com/todos/";
+            _todos = await Http.GetFromJsonAsync<List<Todo>>(stringUrl);
+        } catch (HttpRequestException e) {
+            Console.WriteLine("\nException Caught!");
+            Console.WriteLine("Message :{0} ", e.Message);
+        }
+    }
+
+    class Todo {
+        public int UserId { get; set; }
+        public int Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public bool Completed { get; set; }
+    }
+}
