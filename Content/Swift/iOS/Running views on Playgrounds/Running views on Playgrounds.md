@@ -26,6 +26,16 @@ PlaygroundPage.current.setLiveView(ContentView())
 
 #### Example
 
+````swift
+let view = Text("Hello World!")
+
+// Present the view in the Live View window
+PlaygroundPage.current.setLiveView(view)
+PlaygroundPage.current.liveView = UIHostingController(rootView: view)
+````
+
+#### Example
+
 ```swift
 import PlaygroundSupport
 import SwiftUI
