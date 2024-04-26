@@ -4,7 +4,7 @@ This repository is meticulously designed to function as a comprehensive resource
 
 ## Index
 
-1. Microsoft.NET
+1. Microsoft .NET
    1. [Making HTTP requests](Content/Microsoft.NET/Making%20HTTP%20requests/Making%20HTTP%20requests.md)
 2. Swift
    1. iOS
