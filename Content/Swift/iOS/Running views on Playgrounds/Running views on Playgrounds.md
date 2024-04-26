@@ -20,6 +20,7 @@ struct ContentView: View {
 }
 
 // Present the view in the Live View window
+// PlaygroundPage.current.liveView = UIHostingController(rootView: ContentView())
 PlaygroundPage.current.setLiveView(ContentView())
 ````
 
@@ -29,6 +30,7 @@ PlaygroundPage.current.setLiveView(ContentView())
 import PlaygroundSupport
 import SwiftUI
 
+// Present the view in the Live View window
 PlaygroundPage.current.setLiveView(
     ZStack {
         Color.indigo
