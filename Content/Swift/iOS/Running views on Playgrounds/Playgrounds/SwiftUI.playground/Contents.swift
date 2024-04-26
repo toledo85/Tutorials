@@ -12,4 +12,5 @@ struct ContentView: View {
     }
 }
 
+// PlaygroundPage.current.liveView = UIHostingController(rootView: ContentView())
 PlaygroundPage.current.setLiveView(ContentView())
