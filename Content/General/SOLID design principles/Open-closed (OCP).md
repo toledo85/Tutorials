@@ -1,3 +1,5 @@
+# [Open-closed principle](https://en.wikipedia.org/wiki/Open–closed_principle)
+
 ## Example
 
 ```csharp

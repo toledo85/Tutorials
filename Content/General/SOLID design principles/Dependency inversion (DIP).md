@@ -1,3 +1,5 @@
+# [Dependency Inversion Principle (DIP)](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+
 After all, it's important to note that this principle is distinct from [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection); they are not the same thing. Both concepts are used in this example.
 
 In this example, `NumbersService` directly depends on `InMemoryRepository`, violating the [Dependency Inversion Principle (DIP)](https://en.wikipedia.org/wiki/Dependency_inversion_principle). According to [DIP](https://en.wikipedia.org/wiki/Dependency_inversion_principle), "high-level modules should not depend on low-level modules; both should depend on abstractions," and "abstractions should not depend on details; details should depend on abstractions." This design leads to tight coupling, making it difficult to modify the repository implementation without also altering the service.

@@ -1,3 +1,4 @@
+# [Factory design pattern](https://en.wikipedia.org/wiki/Factory_method_pattern)
 
 The [Factory Design Pattern](https://en.wikipedia.org/wiki/Factory_method_pattern) is a creational pattern that abstracts the process of object creation, allowing you to instantiate objects without specifying their exact [`class`](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html). It uses a factory method or [`class`](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html) to handle object creation, which decouples the client code from the concrete [classes](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html) and hides the details of how objects are created. This approach simplifies client code, enhances flexibility and maintainability, supports dependency management, and allows for easy addition of new object types. It also facilitates unit testing by enabling the use of mock objects.
 

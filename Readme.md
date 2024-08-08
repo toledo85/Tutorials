@@ -21,7 +21,7 @@ This repository is meticulously designed to function as a comprehensive resource
 
 - Creational patterns
   - [Singleton](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Singleton.md)
-  - [Factories](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Factories.md)
+  - [Factory](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Factories.md)
 
 - Structural patterns
   - [Adapter](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Adapter.md)

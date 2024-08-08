@@ -1,3 +1,5 @@
+# [Interface Segregation Principle (ISP)](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+
 In this example, the `IMachine` [`interface`](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface) includes `Print`, `Fax`, and `Scan` methods. However, the `SimplePrinter` only needs the `Print` method, but it is forced to implement `Fax` and `Scan` as well. This results in empty or dummy methods, which can be confusing and lead to maintenance issues. You might not want the `SimplePrinter` to have `Fax` and `Scan` capabilities, but since these methods are required by the `IMachine` [`interface`](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface), you need to implement them all.
 
 ```csharp

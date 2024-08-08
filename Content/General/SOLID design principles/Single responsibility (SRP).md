@@ -1,3 +1,5 @@
+# [Single Responsibility Principle (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle)
+
 The [Single Responsibility Principle (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle) states that a class should have only one reason to change, meaning that a class should have only one responsibility. In other words, a class should encapsulate only one aspect of functionality or behavior. If a class has multiple responsibilities, it becomes more difficult to understand, maintain, and modify. By adhering to the [SRP](https://en.wikipedia.org/wiki/Single_responsibility_principle), each class becomes more focused and less dependent on other classes, making the codebase more modular and flexible.
 
 For example, let's consider a scenario where a [`record`](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/record) called `Square`:

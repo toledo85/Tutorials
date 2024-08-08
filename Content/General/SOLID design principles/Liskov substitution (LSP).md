@@ -1,3 +1,5 @@
+# [Liskov Substitution Principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+
 In this example, the [record](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/record) `Square` (child component) changes the behavior of the [record](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/record) `Rectangle` (base component) by overriding the `Width` and `Height` properties. This violates the [Liskov Substitution Principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle), which states that a base type should be replaceable with a subtype without altering the correctness of the program. Child components should not remove or alter the behavior of the base component or violate its invariants.
 
 ```csharp
