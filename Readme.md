@@ -4,16 +4,28 @@ This repository is meticulously designed to function as a comprehensive resource
 
 ## Table of contents
 
-#### Microsoft .NET
-
-   1. [Making HTTP requests](Content/Microsoft.NET/Making%20HTTP%20requests/Making%20HTTP%20requests.md)
-
 #### Swift
 
-   1. iOS
-      1. [Playgrounds](Content/Swift/iOS/Running%20views%20on%20Playgrounds/Running%20views%20on%20Playgrounds.md) 
+   - iOS
+      - [Playgrounds](Content/Swift/iOS/Running%20views%20on%20Playgrounds/Running%20views%20on%20Playgrounds.md) 
    
-#### Design Patterns
-- Gang of Four (GoF)
-  - Creational patterns
-    - Singleton [Swift](Content/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Singleton/Content/Swift.md) | [C#](Content/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Singleton/Content/Csharp.md) | [Kotlin](Content/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Singleton/Content/Kotlin.md) | [JavaScript/TypeScript](Content/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Singleton/Content/JS-TS.md)
+#### [SOLID principles]((https://en.wikipedia.org/wiki/SOLID))
+
+- [Single responsibility (SRP)](Content/General/SOLID%20design%20principles/Single%20responsibility%20(SRP).md)
+- [Open-closed (OCP)](Content/General/SOLID%20design%20principles/Open-closed%20(OCP).md)
+- [Liskov substitution (LSP)](Content/General/SOLID%20design%20principles/Liskov%20substitution%20(LSP).md)
+- [Interface segregation (ISP)](Content/General/SOLID%20design%20principles/Interface%20segregation%20(ISP).md)
+- [Dependency inversion (DIP)](Content/General/SOLID%20design%20principles/Dependency%20inversion%20(DIP).md)
+
+#### [Design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
+
+- Creational patterns
+  - [Singleton](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Singleton.md)
+  - [Factories](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Factories.md)
+
+- Structural patterns
+  - [Adapter](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Adapter.md)
+  - [Bridge](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Bridge.md)
+  - [Decorator](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Decorator.md)
+  - [Façade](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Façade.md)
+  - [Proxy](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Proxy.md)
