@@ -19,13 +19,17 @@ This repository is meticulously designed to function as a comprehensive resource
 
 #### [Design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
 
-- Creational patterns
-  - [Singleton](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Singleton.md)
-  - [Factory](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Factories.md)
+- Gang of Four (GoF)
 
-- Structural patterns
-  - [Adapter](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Adapter.md)
-  - [Bridge](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Bridge.md)
-  - [Decorator](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Decorator.md)
-  - [Façade](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Façade.md)
-  - [Proxy](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Proxy.md)
+  - Creational patterns
+    - [Singleton](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Singleton.md)
+    - [Factory](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Creational%20patterns/Factories.md)
+
+  - Structural patterns
+    - [Adapter](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Adapter.md)
+    - [Bridge](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Bridge.md)
+    - [Decorator](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Decorator.md)
+    - [Façade](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Façade.md)
+    - [Proxy](Content/General/Design%20Patterns/Gang%20of%20Four%20(GoF)/Structural%20patterns/Proxy.md)
+
+- [Dependency injection and Inversion of control](Content/General/Design%20Patterns/Various/Dependency%20injection%20and%20Inversion%20of%20control.md)

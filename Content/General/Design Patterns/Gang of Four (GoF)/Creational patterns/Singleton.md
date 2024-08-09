@@ -1,3 +1,5 @@
+# [Singleton design pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
+
 The [Singleton design pattern](https://en.wikipedia.org/wiki/Singleton_pattern) ensures only one instance of a type exists in your application, which is particularly useful for components that require costly initialization, such as data repositories or object factories. 
 
 ## [Static classes](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members) vs. [singletons](https://en.wikipedia.org/wiki/Singleton_pattern) vs [global variables](https://en.wikipedia.org/wiki/Global_variable) 
